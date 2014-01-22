@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 16 Oct 2012 11:11:00 +0000
+Source: instago
+Binary: instago
+Architecture: armel
+Version: 0.4.0
+Distribution: stable
+Urgency: normal
+Maintainer: Dirk Songuer <dirk@songuer.de>
+Changed-By: Dirk Songuer <dirk@songuer.de>
+Description: 
+ instago    - An Instagram client for MeeGo
+Changes: 
+ instago (0.4.0) stable; urgency=normal
+ .
+   * Added list of user that liked an image
+   * Added comment indicator to user feed and image detail view
+   * Added comment list for images
+   * Added location to user feed and image detail view
+   * Added several UI elements (icons, separators)
+   * Optimized login process & Instagram key handling
+   * Fixed loading indicator on user profile page (now shown correctly)
+Checksums-Sha1: 
+ 27d4f45c7df832bf6638a99b6d50de58afb4801e 666800 instago_0.4.0_armel.deb
+Checksums-Sha256: 
+ 33cd4e578f8087e1603de7b61e5d7b2e9d21fef5ebac3f563a81ff128d0c17de 666800 instago_0.4.0_armel.deb
+Files: 
+ cbd3b7de3622de7edac4004d18781306 666800 user/other optional instago_0.4.0_armel.deb
+Maemo-Display-Name: Instago

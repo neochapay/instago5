@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Sat, 13 Oct 2012 11:11:00 +0000
+Source: instago
+Binary: instago
+Architecture: armel
+Version: 0.3.3
+Distribution: unstable
+Urgency: low
+Maintainer: Dirk Songuer <dirk@songuer.de>
+Changed-By: Dirk Songuer <dirk@songuer.de>
+Description: 
+ instago    - An Instagram client for MeeGo
+Changes: 
+ instago (0.3.3) unstable; urgency=low
+ .
+   * Optimized labels
+   * Fixed relationship status and buttons
+   * Fixed showing follower information for private users
+   * Fixed loading additional images when reaching the last pagination id
+   * Fixed error messages should be cleared every call
+Checksums-Sha1: 
+ 816e521e10a67e03b40537f2d23d590f52227a87 660508 instago_0.3.3_armel.deb
+Checksums-Sha256: 
+ f4538ea2f00f4941c908bc333f1e020b8ad3790fc04322de16a7d4ac48054a88 660508 instago_0.3.3_armel.deb
+Files: 
+ a2918b9a747bce5fa599460da9bf6249 660508 user/other optional instago_0.3.3_armel.deb
+Maemo-Display-Name: Instago

@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sun, 03 Jan 2013 15:54:00 +0000
+Source: instago
+Binary: instago
+Architecture: armel
+Version: 0.6.2
+Distribution: stable
+Urgency: low
+Maintainer: Dirk Songuer <dirk@songuer.de>
+Changed-By: Dirk Songuer <dirk@songuer.de>
+Description: 
+ instago    - An Instagram client for MeeGo
+Changes: 
+ instago (0.6.2) stable; urgency=low
+ .
+   * Added reloading of additional images to favourites
+   * Fixed number of images in popular gallery (back to 15)
+   * Fixed share link description
+Checksums-Sha1: 
+ 9c44fa5db97f8dae7155f101b17a4daee46f2eef 896164 instago_0.6.2_armel.deb
+Checksums-Sha256: 
+ 226d32510f08363c3b56462c4c4e4463d9f6eada6accc7ac6d2fb7da58b42bec 896164 instago_0.6.2_armel.deb
+Files: 
+ b506dda9583612069c1c7d08a759b9dc 896164 user/other optional instago_0.6.2_armel.deb
+Maemo-Display-Name: Instago

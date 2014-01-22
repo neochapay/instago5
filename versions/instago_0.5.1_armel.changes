@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Tue, 32 Nov 2012 20:07:00 +0000
+Source: instago
+Binary: instago
+Architecture: armel
+Version: 0.5.1
+Distribution: stable
+Urgency: high
+Maintainer: Dirk Songuer <dirk@songuer.de>
+Changed-By: Dirk Songuer <dirk@songuer.de>
+Description: 
+ instago    - An Instagram client for MeeGo
+Changes: 
+ instago (0.5.1) stable; urgency=high
+ .
+   * Fixed bug with wrong client id
+Checksums-Sha1: 
+ 4842c9ae82b33d5ef14dd4a00c2004be5d5a7215 677414 instago_0.5.1_armel.deb
+Checksums-Sha256: 
+ 79b0f6eff1d40310e6a15840945eb616d56b449c1cbaa4f95562c143274bf458 677414 instago_0.5.1_armel.deb
+Files: 
+ c325ea050e881d3380c24df91603c222 677414 user/other optional instago_0.5.1_armel.deb
+Maemo-Display-Name: Instago

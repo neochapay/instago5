@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 27 Oct 2012 12:08:00 +0000
+Source: instago
+Binary: instago
+Architecture: armel
+Version: 0.4.1
+Distribution: unstable
+Urgency: low
+Maintainer: Dirk Songuer <dirk@songuer.de>
+Changed-By: Dirk Songuer <dirk@songuer.de>
+Description: 
+ instago    - An Instagram client for MeeGo
+Changes: 
+ instago (0.4.1) unstable; urgency=low
+ .
+   * Added commenting images
+   * Added elapsed time to image view
+   * Addes subtle touch feedback to elements
+   * Removed timestamp from image view
+   * Optimized comment spacing
+   * Optimized like and comment pages (now enabled with 0 entries)
+   * Optimized dynamic height of lists and components
+   * Optimized element colors and styles
+   * Fixed error messages showing up multiple times
+Checksums-Sha1: 
+ f2c26e1d8c255f653cebeca284ed32355603fbd9 671974 instago_0.4.1_armel.deb
+Checksums-Sha256: 
+ c7ebb45316f5f38f9cd171997709d5e701b9abc280be85f3a93102efe756e584 671974 instago_0.4.1_armel.deb
+Files: 
+ 880d690226aa7f952ed7f43eee736073 671974 user/other optional instago_0.4.1_armel.deb
+Maemo-Display-Name: Instago

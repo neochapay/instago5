@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 12 Nov 2012 18:31:00 +0000
+Source: instago
+Binary: instago
+Architecture: armel
+Version: 0.5.0
+Distribution: stable
+Urgency: normal
+Maintainer: Dirk Songuer <dirk@songuer.de>
+Changed-By: Dirk Songuer <dirk@songuer.de>
+Description: 
+ instago    - An Instagram client for MeeGo
+Changes: 
+ instago (0.5.0) stable; urgency=normal
+ .
+   * Added confirmation button for searching
+   * Added confirmation button for commenting
+   * Optimized search input behavior
+   * Fixed bug where user gallery and user followers may be visible at the same time
+   * Fixed network process, multiple errors should not cause problems anymore
+Checksums-Sha1: 
+ 2eb13ed50d866059c4878e8a535388b07c1f4b3b 677286 instago_0.5.0_armel.deb
+Checksums-Sha256: 
+ af3a273d083fbb5ef23cccea8d40a12dd6d16fd38ba1f1a4a44a491ae96ba6d8 677286 instago_0.5.0_armel.deb
+Files: 
+ 887447e64b25505f24d6cbc67ece4f46 677286 user/other optional instago_0.5.0_armel.deb
+Maemo-Display-Name: Instago

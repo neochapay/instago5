@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 01 Oct 2012 15:17:00 +0000
+Source: instago
+Binary: instago
+Architecture: armel
+Version: 0.3.1
+Distribution: unstable
+Urgency: low
+Maintainer: Dirk Songuer <dirk@songuer.de>
+Changed-By: Dirk Songuer <dirk@songuer.de>
+Description: 
+ instago    - An Instagram client for MeeGo
+Changes: 
+ instago (0.3.1) unstable; urgency=low
+ .
+   * Added network error check + message to image detail view
+   * Added user follower (followed by) list
+   * Added user following (follows) list
+   * Optimized image detail loading behavior
+   * Optimized user profile pages
+   * Fixed wrong time format in image detail views (now shows "0n:0n")
+Checksums-Sha1: 
+ 7837716e5242b41540a10759b507cfd2498306db 650978 instago_0.3.1_armel.deb
+Checksums-Sha256: 
+ 0744f1a3d214c163e2e59ed23a0d1c05348ab73d5e1298deeab3a65ba2913650 650978 instago_0.3.1_armel.deb
+Files: 
+ c49318f3e996842d14cf26a062a207a3 650978 user/other optional instago_0.3.1_armel.deb
+Maemo-Display-Name: Instago

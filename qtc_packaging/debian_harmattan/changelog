@@ -1,0 +1,209 @@
+instago (0.6.2) stable; urgency=low
+
+  * Added reloading of additional images to favorites
+  * Fixed number of images in popular gallery (back to 15)
+  * Fixed share link description
+
+ -- Dirk Songuer <dirk@songuer.de>  Sun, 03 Jan 2013 15:54:00 +0000
+
+
+instago (0.6.1) unstable; urgency=low
+
+  * Added intro page if users are not logged in
+  * Added gallery / feed view switch for user images
+  * Added gallery / feed view switch for hashtag search results
+  * Added links for hashtags in image caption
+  * Added links for user names in image caption
+  * Added links for hashtags in comments
+  * Added links for user names in comments
+  * Added WazappPureRegular font by @knobtviker for limited Emoji support
+
+ -- Dirk Songuer <dirk@songuer.de>  Tue, 11 Dec 2012 15:54:00 +0000
+
+
+instago (0.6.0) stable; urgency=normal
+
+  * Added image caption in user feed
+  * Added quick menu for images in user feed (long tap on image)
+  * Added external Nokia Maps link to location detail page (long tap on map)
+  * Added detail map view to location detail page (long tap on map)
+  * Added "tap header to jump to top" behavior on all list pages
+  * Optimized image detail component in user feed and detail view
+  * Optimized image caption in detail view
+  * Optimized touch behavior of reload buttons in top header bar
+  * Optimized name and location fields to fit, elide or wrap
+  * Fixed bug where location detail page could be loaded multiple times at ones
+
+ -- Dirk Songuer <dirk@songuer.de>  Sun, 25 Nov 2012 19:53:00 +0000
+
+
+instago (0.5.2) unstable; urgency=low
+
+  * Added location detail page
+  * Added timer for comment refresh to give Instagram time to update data
+
+ -- Dirk Songuer <dirk@songuer.de>  Mon, 19 Nov 2012 00:08:00 +0000
+
+
+instago (0.5.1) stable; urgency=high
+
+  * Fixed bug with wrong client id
+
+ -- Dirk Songuer <dirk@songuer.de>  Tue, 13 Nov 2012 20:07:00 +0000
+
+
+instago (0.5.0) stable; urgency=normal
+
+  * Added confirmation button for searching
+  * Added confirmation button for commenting
+  * Optimized search input behavior
+  * Fixed bug where user gallery and user followers may be visible at the same time
+  * Fixed network process, multiple errors should not cause problems anymore
+
+ -- Dirk Songuer <dirk@songuer.de>  Mon, 12 Nov 2012 18:31:00 +0000
+
+
+instago (0.4.2) unstable; urgency=low
+
+  * Added user search
+  * Added hashtag search
+  * Added list of users likes
+  * Fixed showing wrong number of comments for some users
+
+ -- Dirk Songuer <dirk@songuer.de>  Sun, 04 Nov 2012 13:34:00 +0000
+
+
+instago (0.4.1) unstable; urgency=low
+
+  * Added commenting images
+  * Added elapsed time to image view
+  * Addes subtle touch feedback to elements
+  * Removed timestamp from image view
+  * Optimized comment spacing
+  * Optimized like and comment pages (now enabled with 0 entries)
+  * Optimized dynamic height of lists and components
+  * Optimized element colors and styles
+  * Fixed error messages showing up multiple times
+
+ -- Dirk Songuer <dirk@songuer.de>  Sat, 27 Oct 2012 12:08:00 +0000
+
+
+instago (0.4.0) stable; urgency=normal
+
+  * Added list of user that liked an image
+  * Added comment indicator to user feed and image detail view
+  * Added comment list for images
+  * Added location to user feed and image detail view
+  * Added several UI elements (icons, separators)
+  * Optimized login process & Instagram key handling
+  * Fixed loading indicator on user profile page (now shown correctly)
+
+ -- Dirk Songuer <dirk@songuer.de>  Sat, 20 Oct 2012 19:54:00 +0000
+
+
+instago (0.3.3) unstable; urgency=low
+
+  * Optimized labels
+  * Fixed relationship status and buttons
+  * Fixed showing follower information for private users
+  * Fixed loading additional images when reaching the last pagination id
+  * Fixed error messages should be cleared every call
+
+ -- Dirk Songuer <dirk@songuer.de>  Sat, 13 Oct 2012 11:11:00 +0000
+
+
+instago (0.3.2) unstable; urgency=low
+
+  * Added force logout page if existing token is not accepted by Instagram anymore
+  * Added user feed as default view for authenticated users
+  * Optimized network and authentication handler for Instagram API calls
+  * Fixed edge case when sharing new images that have no Instagram page yet (share button is dimmed)
+
+ -- Dirk Songuer <dirk@songuer.de>  Tue, 09 Oct 2012 12:05:00 +0000
+
+
+instago (0.3.1) unstable; urgency=low
+
+  * Added network error check + message to image detail view
+  * Added user follower (followed by) list
+  * Added user following (follows) list
+  * Optimized image detail loading behavior
+  * Optimized user profile pages
+  * Fixed wrong time format in image detail views (now shows "0n:0n")
+
+ -- Dirk Songuer <dirk@songuer.de>  Mon, 01 Oct 2012 15:17:00 +0000
+
+
+instago (0.3.0) stable; urgency=normal
+
+  * Public Beta release
+
+ -- Dirk Songuer <dirk@songuer.de>  Sun, 30 Sep 2012 15:17:00 +0000
+
+
+instago (0.2.2) unstable; urgency=low
+
+  * Added user feed
+  * Added likes via double tap on image
+  * Added generic network error message
+  * Fixed unliking images (works now)
+
+ -- Dirk Songuer <dirk@songuer.de>  Sun, 30 Sep 2012 12:55:00 +0000
+
+
+instago (0.2.0) unstable; urgency=low
+
+  * Added authentication with Instagram
+  * Added user profile page
+  * Added likes
+  * Added user relationships (follow/unfollow)
+  * Added notifications for Instagram actions
+  * Added automatic paging / loading for gallery images
+
+ -- Dirk Songuer <dirk@songuer.de>  Sun, 16 Sep 2012 12:55:00 +0000
+
+
+instago (0.1.1) unstable; urgency=low
+
+  * Added splash screen
+
+ -- Dirk Songuer <dirk@songuer.de>  Sat, 15 Sep 2012 19:21:00 +0000
+
+
+instago (0.1.0) stable; urgency=low
+
+  * Added sharing to photo detail page
+  * Changed alignment of user profile data
+  * Changed icon
+  * Changed Instago description text
+  * Changed name to "Instago" (capital)
+  * Optimized code
+
+ -- Dirk Songuer <dirk@songuer.de>  Mon, 13 Sep 2012 09:19:00 +0000
+
+
+instago (0.0.2) unstable; urgency=low
+
+  * Added proper packaging
+  * Added new icon in Program Manager
+
+ -- Dirk Songuer <dirk@songuer.de>  Sun, 06 Sep 2012 09:19:00 +0000
+
+
+instago (0.0.1) unstable; urgency=low
+
+  * Initial Release
+  * Added instagramkeys.js that holds the app keys
+  * Added profile page
+  * Added about page
+  * Added user detail page
+  * Added reload behavior for popular photos
+  * Added captions in detail view
+  * Added popular images
+  * Removed instagram application key from popularphotos.js file (now in its own)
+  * Changed app theme to light theme
+  * Changed design to be more like the current iPhone one
+  * Moved js files to /js
+  * Optimized code and filenames
+
+ -- Dirk Songuer <dirk@songuer.de>  Sun, 19 Aug 2012 09:19:00 +0000
