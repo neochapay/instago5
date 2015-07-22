@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/instago/main.qml</file>
+        <file>qml/instago/pages/AboutPage.qml</file>
+        <file>qml/instago/pages/ForcedLogoutPage.qml</file>
+        <file>qml/instago/pages/HashtagPage.qml</file>
+        <file>qml/instago/pages/ImageCommentsPage.qml</file>
+        <file>qml/instago/pages/ImageDetailPage.qml</file>
+        <file>qml/instago/pages/ImageLikesPage.qml</file>
+        <file>qml/instago/pages/IntroPage.qml</file>
+        <file>qml/instago/pages/LocationDetailPage.qml</file>
+        <file>qml/instago/pages/LoginPage.qml</file>
+        <file>qml/instago/pages/MapDetailPage.qml</file>
+        <file>qml/instago/pages/NewsFeedPage.qml</file>
+        <file>qml/instago/pages/PopularPhotosPage.qml</file>
+        <file>qml/instago/pages/SearchPage.qml</file>
+        <file>qml/instago/pages/SplashScreenPage.qml</file>
+        <file>qml/instago/pages/UserDetailPage.qml</file>
+        <file>qml/instago/pages/UserFeedPage.qml</file>
+        <file>qml/instago/pages/UserLikes.qml</file>
+        <file>qml/instago/pages/UserProfilePage.qml</file>
+        <file>qml/instago/components/CommentList.qml</file>
+        <file>qml/instago/components/ErrorMessage.qml</file>
+        <file>qml/instago/components/Header.qml</file>
+        <file>qml/instago/components/ImageDetails.qml</file>
+        <file>qml/instago/components/ImageFeed.qml</file>
+        <file>qml/instago/components/ImageGallery.qml</file>
+        <file>qml/instago/components/NotificationArea.qml</file>
+        <file>qml/instago/components/NotificationImageMenu.qml</file>
+        <file>qml/instago/components/NotificationLocationMenu.qml</file>
+        <file>qml/instago/components/UserBio.qml</file>
+        <file>qml/instago/components/UserList.qml</file>
+        <file>qml/instago/components/UserMetadata.qml</file>
+    </qresource>
+</RCC>

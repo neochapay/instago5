@@ -8,7 +8,6 @@
 
 import QtQuick 2.1
 import QtQuick.Controls 1.1
-//import com.nokia.meego 1.0
 
 import "pages"
 import "components"

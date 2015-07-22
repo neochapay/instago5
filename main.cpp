@@ -28,8 +28,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 */
 #include <QtGui/QGuiApplication>
 #include <QQmlContext>
+#include <QQmlApplicationEngine>
 
-#include "qtquick2applicationviewer.h"
 #include "sharehelper.h"
 #include "networkhelper.h"
 
@@ -40,11 +40,9 @@ int main(int argc, char *argv[])
     ShareHelper sharehelper;
     NetworkHelper networkhelper;
     
-    QtQuick2ApplicationViewer viewer;
-//    viewer.rootContext()->setContextProperty("dash", &Dashboard);
+    QQmlApplicationEngine engine;
 
-    viewer.setMainQmlFile(QStringLiteral("qml/instago/main.qml"));
-    viewer.showExpanded();
+    engine.load(QUrl(QStringLiteral("qrc:/qml/instago/main.qml")));
 
     return app.exec();
 }
