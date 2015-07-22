@@ -16,22 +16,20 @@ StackView {
     id: appWindow
 
     // initial page is the gallery of popular photos
-    initialPage: splashScreenPage
+    initialItem: splashScreenPage
 
     // register the popular photo page
     PopularPhotosPage {
         id: popularPhotosPage
     }
 
-
     // register the splash screen page
     SplashScreenPage {
         id: splashScreenPage
     }
 
-
     // page specific toolbar
-    ToolBarLayout {
+    /*ToolBarLayout {
         id: mainNavigationToolbar
         visible: false
 
@@ -99,5 +97,5 @@ StackView {
                 pageStack.push(Qt.resolvedUrl("pages/UserProfilePage.qml"))
             }
         }
-    }
+    }*/
 }

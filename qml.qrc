@@ -31,5 +31,26 @@
         <file>qml/instago/components/UserBio.qml</file>
         <file>qml/instago/components/UserList.qml</file>
         <file>qml/instago/components/UserMetadata.qml</file>
+        <file>qml/instago/global/globals.js</file>
+        <file>qml/instago/global/instagramkeys.example.js</file>
+        <file>qml/instago/global/instagramkeys.js</file>
+        <file>qml/instago/classes/authenticationhandler.js</file>
+        <file>qml/instago/classes/datacache.js</file>
+        <file>qml/instago/classes/helpermethods.js</file>
+        <file>qml/instago/classes/networkhandler.js</file>
+        <file>qml/instago/models/comments.js</file>
+        <file>qml/instago/models/imagedetail.js</file>
+        <file>qml/instago/models/likes.js</file>
+        <file>qml/instago/models/locations.js</file>
+        <file>qml/instago/models/newsfeed.js</file>
+        <file>qml/instago/models/popularphotos.js</file>
+        <file>qml/instago/models/relationships.js</file>
+        <file>qml/instago/models/search.js</file>
+        <file>qml/instago/models/userdata.js</file>
+        <file>qml/instago/models/userfeed.js</file>
+        <file>qml/instago/img/instago_splashscreen.png</file>
+        <file>qml/instago/img/instago80.png</file>
+        <file>qml/instago/img/top_header_logo.png</file>
+        <file>qml/instago/img/top_header.png</file>
     </qresource>
 </RCC>

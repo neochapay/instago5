@@ -8,8 +8,7 @@
 // *************************************************** //
 
 import QtQuick 2.0
-import com.nokia.meego 1.0
-import QtMobility.gallery 1.1
+import Ubuntu.Components 1.1
 
 import "../components"
 import "../global/globals.js" as Globals
@@ -19,9 +18,6 @@ import "../models/popularphotos.js" as PopularPhotosScript
 Page {
     // use the main navigation toolbar
     tools: mainNavigationToolbar
-
-    // lock orientation to portrait mode
-    orientationLock: PageOrientation.LockPortrait
 
     // flag to keep track if intro has been shown
     property bool introShown: false
@@ -50,13 +46,13 @@ Page {
         }
     }
 
-    onStatusChanged: {
+    /*onStatusChanged: {
         if ((status == 2) && (!introShown))
         {
             introShown = true;
             pageStack.push(Qt.resolvedUrl("IntroPage.qml"));
         }
-    }
+    }*/
 
     // standard header for the current page
     Header {
@@ -87,12 +83,9 @@ Page {
 
 
     // show the loading indicator as long as the page is not ready
-    BusyIndicator {
+    ActivityIndicator {
         id: loadingIndicator
-
         anchors.centerIn: parent
-        platformStyle: BusyIndicatorStyle { size: "large" }
-
         running:  true
         visible: true
     }

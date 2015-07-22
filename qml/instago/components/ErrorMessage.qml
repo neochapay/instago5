@@ -10,7 +10,6 @@
 // *************************************************** //
 
 import QtQuick 2.0
-import com.nokia.meego 1.1
 
 import "../pages"
 import "../global/globals.js" as Globals

@@ -6,7 +6,7 @@
 // *************************************************** //
 
 import QtQuick 2.0
-import com.nokia.meego 1.0
+import Ubuntu.Components 1.1
 
 import "../components"
 import "../global/globals.js" as Globals
@@ -14,8 +14,6 @@ import "../classes/authenticationhandler.js" as Authentication
 
 Page {
     // lock orientation to portrait mode
-    orientationLock: PageOrientation.LockPortrait
-
 
     // this is the splash image, shown in fullscreen
     Image {
