@@ -4,7 +4,7 @@
 // It's main use is to wrap the http delete method in a convenient package
 // that can be used from QML
 
-#include <QDeclarativeContext>
+#include <QQmlContext>
 
 NetworkHelper::NetworkHelper(QObject *parent) : QObject(parent)
 {
